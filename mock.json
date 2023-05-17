@@ -1,0 +1,29 @@
+{
+    "protocol": "http",
+    "port": 5555,
+    "stubs": [
+      {
+        "predicates": [
+          {
+            "equals": {
+              "path": "/api/feature1",
+              "method": "GET"
+            }
+          }
+        ],
+        "responses": [
+          {
+            "is": {
+              "statusCode": 200,
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "body": {
+                "message": "Your response message"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
