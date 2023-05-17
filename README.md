@@ -4,10 +4,11 @@ docker-compose up --build
 
 # test
 
+```
 http://localhost/api/swagger
 http://localhost/setup/imposters
-http://localhost/stub/api/feature1
-
+http://localhost/stub/api/feature1 ->this will not work until you run a snippet from add endpoint
+```
 
 # test connection
 
