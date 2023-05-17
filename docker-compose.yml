@@ -52,3 +52,13 @@ services:
 # networks:
 #   app-network:
 #     driver: bridge
+
+  # test:
+  #   image: alpine/curl:latest
+  #   command: ["sh", "/app/test.sh" ]
+  #   volumes:
+  #     - ./:/app
+  #   depends_on:
+  #     - mountebank
+  #     - webapi
+  #     - webserver
