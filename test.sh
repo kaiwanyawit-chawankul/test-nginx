@@ -10,7 +10,7 @@ make_request() {
     fi
 }
 
-curl -X POST -H "Content-Type: application/json" -d "@mock.json" http://localhost/setup/imposters
+# curl -X POST -H "Content-Type: application/json" -d "@mock.json" http://localhost/setup/imposters
 
 # Make curl requests and fail on error
 make_request http://localhost/api/swagger
